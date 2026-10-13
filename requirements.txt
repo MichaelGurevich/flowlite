@@ -1,0 +1,9 @@
+faster-whisper>=1.0       # local speech-to-text (CTranslate2), multilingual
+sounddevice>=0.4.6        # microphone capture
+numpy>=1.24
+pynput>=1.7.6             # global hotkeys (low-level keyboard hook)
+uiautomation>=2.0.18      # read text around the cursor (UI Automation)
+pycaw>=20240210           # mute other apps while dictating
+PySide6-Essentials>=6.7   # Flow Bar, hub window, tray (Qt)
+pillow>=10                # desktop icon generation
+# Formatting/transforms run on a local Ollama server (https://ollama.com) at 127.0.0.1:11434.
